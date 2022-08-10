@@ -1,0 +1,298 @@
+
+
+
+
+
+
+
+
+
+
+
+― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ―
+
+記号：
+
+コロン→：「:」
+アスタリクス→：「*」
+インデンド→：「	」
+エクスクラメーション→：「!」
+adding→：「+」
+subtract→：「-」
+
+― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ―
+
+言葉：
+
+Paddle→：ここでは四角い破片みたいなやつ、本当は船を動かす棒、весло
+
+print→：印刷、распечатать
+
+input→：入力、ввод
+
+message→：メッセージ、сообщение
+
+elif→：Конструкция 「else + if」
+
+greeting→：挨拶、приветствие
+
+count→：カウント、счет
+
+range→：範囲、диапазон
+
+define→：定義、определение
+
+def→：定義、определение
+
+current→：現在の、Текущий
+
+coordinate→：座標、координировать
+
+add→：addition,追加,添加,добавление
+
+subtract→：вычесть,減算
+
+combining→：объединение、組み合わせる
+
+diagonal→：対角線、斜め、диагональ
+
+Border→：Граница、国境
+
+edges→：края、edge→：край
+
+bounce→：подпрыгивать, 跳ねる、弾む
+
+collisions→：衝突、столкновения
+
+d→：means delta or change、デルタまたは変更を意味します
+MATHEMATICS、数学的な意味
+variation of a variable or function、変数または関数のバリエーション。
+изменение переменной или функции
+
+binding→：связывание
+a strong covering holding the pages of a book together.
+
+1. обязательный
+2. обязывающий
+noun
+1. переплет
+2. связь
+
+adjective→：a word naming an attribute of a noun, such as sweet, red, or technical.
+слово, обозначающее атрибут существительного, например сладкий, красный или технический.
+
+wn.→：windows
+
+― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ―
+
+turtle：
+↓
+Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966.
+
+Imagine a robotic turtle starting at (0, 0) in the x-y plane. After an import turtle, give it the command turtle.forward(15), and it moves (on-screen!) 15 pixels in the direction it is facing, drawing a line as it moves. Give it the command turtle.right(25), and it rotates in-place 25 degrees clockwise.
+
+By combining together these and similar commands, intricate shapes and pictures can easily be drawn.
+ーーーーーーーーーーーーーーーー
+turtle：
+↓
+Графика черепах — популярный способ познакомить детей с программированием. Он был частью оригинального языка программирования Logo, разработанного Уолли Фёрцигом и Сеймуром Пейпертом в 1966 году.
+
+Представьте роботизированную черепаху, начинающуюся с (0, 0) в плоскости x-y. После импорта черепахи дайте ей команду turtle.forward(15), и она переместится (на экране!) на 15 пикселей в том направлении, в котором смотрит, рисуя линию по мере движения. Дайте ему команду turtle.right(25), и он повернется на месте на 25 градусов по часовой стрелке.
+
+Комбинируя вместе эти и подобные команды, можно легко рисовать сложные формы и изображения.
+ーーーーーーーーーーーーーーーー
+a.ycor
+↓
+Pythonのturtle.ycor（）関数
+turtleモジュールは、オブジェクト指向とプロシージャ指向の両方の方法で、タートルグラフィックスプリミティブを提供します。基盤となるグラフィックにTkinterを使用するため、TkをサポートするバージョンのPythonがインストールされている必要があります。
+
+Turtle.ycor（）
+この関数は、タートルの現在の位置のタートルのy座標を返すために使用されます。引数は必要ありません。
+
+構文→：turtle.ycor（）
+ーーーーーーーーーーーーーーーー
+wn.bgcolor("black")→：bg=background,задний план,バックグラウンド,背景,色は黒
+
+turtle.Screen().bgcolor() function in Python
+
+The turtle module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways. Because it uses Tkinter for the underlying graphics, it needs a version of Python installed with Tk support.
+
+turtle.Screen().bgcolor()
+This method is used to set or return background color of the Turtle Screen.
+
+Этот метод используется для установки или возврата цвета фона черепашьего экрана.
+ーーーーーーーーーーーーーーーー
+
+import turtle→：タートル(カメ)を導入
+
+import winsound→：windows sound
+
+wn.→：windows
+
+wn = turtle.Screen()→：スクリーンについて
+
+wn.title("Pong by @TokyoEdTech")→：タイトル("Pong by @TokyoEdTech")
+
+wn.setup(width=800,height=600)→：画面のサイズ？※
+
+wn.tracer(0)→：追跡だとか、ここではボールの速さ(0)が一番早い、(1)が一番遅くて、そこから数字があがるにつれ速くなる。
+
+# Paddle A→：破片 A
+
+paddle_a = turtle.Turtle()：→破片の※
+
+paddle_a.speed(0)→：破片のアニメーションのスピード
+
+paddle_a.shape("square")→：破片の形は四角を使う、三角などもある
+
+paddle_a.color("white")→：破片の色は白
+
+paddle_a.penup()→：タートル(カメ)ゲームが動く際に足跡を残すか？※
+
+paddle_a.shapesize(stretch_wid=5, stretch_len=1)→：破片の大きさ
+
+paddle_a.goto(-350, 0)→：位置、に向かう
+
+# Paddle B→：上記同様
+paddle_b.goto(350, 0)→：位置、に向かう
+
+#Ball→：ほとんど上記同様
+ball_b = turtle.Turtle()
+ball_b.speed(0)
+ball_b.shape("square")
+ball_b.color("white")
+ball_b.penup()
+ball_b.goto(0, 0)→：位置、に向かう
+
+function define→：機能を定義する、определение функции
+
+def paddle_a_up():
+    y = paddle_a.ycor()→：パドルaの機能を定義する(上↑)、yはpaddle_a.ycor
+current y coordinate→現在のy座標
+
+.ycor()→：タートル(カメ)ゲーム内のモード
+
+y += 20→：that will add 20 pixels to the y coordinates,y座標に20ピクセルが追加されます
+
+function→：paddle_a_up says get the ycor()(y coordinate) 
+
+paddle_a.sety(y)→：yをセットする？※
+
+# Keyboard binding→：Привязка клавиатуры、キーボードと結びつける
+wn.listen()→：listen for keyboard input,キーボード入力を聞く
+wn.onkeypress(paddle_a_up, "w")→：нажатие клавиши w = вызвать функцию paddle_a_up、キーwを入力すると関数paddle_a_upを呼び出しますw
+ーーーーーーーーーーーーーーーー
+def paddle_a_up():
+    y = paddle_a.ycor()
+    y += 20
+    paddle_a.sety(y)
+
+def paddle_a_down():
+    y = paddle_a.ycor()
+    y -= 20
+    paddle_a.sety(y)
+
+def paddle_b_up():
+    y = paddle_b.ycor()
+    y += 20
+    paddle_b.sety(y)
+
+def paddle_b_down():
+    y = paddle_b.ycor()
+    y -= 20
+    paddle_b.sety(y)
+↓
+機能の設定
+
+
+# Keyboard binding
+wn.listen()
+wn.onkeypress(paddle_a_up, "w")→：w入力、paddle_aが上↑に移動
+wn.onkeypress(paddle_a_down, "s")→：s入力、paddle_aが下↓に移動
+wn.onkeypress(paddle_b_up, "Up")→：Up入力、paddle_bが上↑に移動
+wn.onkeypress(paddle_b_down, "Down")→：Down入力、paddle_bが下↓に移動
+ーーーーーーーーーーーーーーーー
+
+ball.dx = 2→：d means delta or change
+
+ball.dx = 2
+ball.dy = 2→：every time the ball moves, it moves by two pixels. So sinse x is positive, it's going to move to the right to, and since y is positive, it's going to move up to so it'd bi kind of moving up and diagonally.
+каждый раз, когда мяч движется, он перемещается на два пикселя. Итак, поскольку x положителен, он будет двигаться вправо, а поскольку y положителен, он будет двигаться вверх, так что он будет как бы двигаться вверх и по диагонали.
+ボールが移動するたびに、2ピクセルずつ移動します。 つまり、sinse xは正であり、右に移動します。yは正であるため、上に移動するので、対角線上に移動します。
+
+ーーーーーーーーーーーーーーーー
+
+# Move the ball
+ball.setx(ball.xcor() + ball.dx)
+↓
+so the ball starts at 00. So 0x. So the first time through this loop, it's going to go to, go to an x times the loop. depending on your computer speed, it could just fly off the screen, or it can go a little bit slower.
+поэтому мяч начинается с 00. Итак, 0x. Таким образом, в первый раз через этот цикл он будет идти до х раз цикла. в зависимости от скорости вашего компьютера, он может просто улететь с экрана или работать немного медленнее.
+つまり、ボールは00から始まります。つまり0xです。 したがって、このループを初めて通過するときは、ループのx倍に移動します。 コンピュータの速度によっては、画面から飛び出すだけの場合もあれば、少し遅くなる場合もあります。
+
+ball.setx(ball.ycor() + ball.dy)→：same thing with y
+
+ーーーーーーーーーーーーーーーー
+
+# Border cheking→：国境を決める
+
+winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+↓
+サウンドを導入
+
+# Pen
+pen = turtle.Turtle()
+pen.speed(0)
+pen.color("white")
+pen.penup()
+pen.hideturtle()
+pen.goto(0, 260)
+pen.write("Player A: 0 Player B: 0", align="center", font=("Courier", 24, "normal"))
+
+align→：整列、выровнять
+
+Courier→：Курьер
+
+― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ―
+
+カメが酔ってランダムな距離だけ進み、ランダムな角度で向きを変えながら這ったとする。 これを次のようなスクリプトで表すことができる。
+↓
+import turtle
+import random
+ 
+wn = turtle.Screen()
+tur = turtle.Turtle()
+tur.goto(0, 0)
+ 
+def random_walk(kame, n):
+    for n in range(n):
+        kame.forward(random.randrange(10, 60))
+        kame.left(random.randrange(20, 180))
+ 
+random_walk(tur, 30)
+     
+wn.exitonclick()
+
+ーーーーーーーーーーーーーーーー
+
+
+
+
+
+
+― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ―
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
